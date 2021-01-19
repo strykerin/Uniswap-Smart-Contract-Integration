@@ -1,7 +1,6 @@
 const FirstToken = artifacts.require("FirstToken");
 const SecondToken = artifacts.require("SecondToken");
 
-
 const json = require('@uniswap/v2-core/build/UniswapV2Factory.json')
 const contract = require('@truffle/contract');
 const UniswapV2Factory = contract(json);
