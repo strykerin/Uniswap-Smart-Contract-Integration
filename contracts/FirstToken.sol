@@ -4,6 +4,6 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract FirstToken is ERC20 {
     constructor() public ERC20("FirstToken", "FST"){
-        _mint(msg.sender, 1000000000000000000000000);
+        _mint(msg.sender, 1000000);
     }
 }

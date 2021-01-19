@@ -48,14 +48,14 @@
     "absolutePath": "/C/Users/Fabio/Github_repos/Pessoal/UniswapSmartContractIntegration/contracts/interfaces/ILiquidityValueCalculator.sol",
     "exportedSymbols": {
       "ILiquidityValueCalculator": [
-        143
+        183
       ]
     },
-    "id": 144,
+    "id": 184,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 129,
+        "id": 169,
         "literals": [
           "solidity",
           "^",
@@ -63,7 +63,7 @@
           ".6"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:2"
+        "src": "0:23:4"
       },
       {
         "abstract": false,
@@ -72,9 +72,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 143,
+        "id": 183,
         "linearizedBaseContracts": [
-          143
+          183
         ],
         "name": "ILiquidityValueCalculator",
         "nodeType": "ContractDefinition",
@@ -83,7 +83,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "4ef0c6cc",
-            "id": 142,
+            "id": 182,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -91,18 +91,18 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 136,
+              "id": 176,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 131,
+                  "id": 171,
                   "mutability": "mutable",
                   "name": "liquidity",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 142,
-                  "src": "106:14:2",
+                  "scope": 182,
+                  "src": "106:14:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -110,10 +110,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 130,
+                    "id": 170,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "106:4:2",
+                    "src": "106:4:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -124,13 +124,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 133,
+                  "id": 173,
                   "mutability": "mutable",
                   "name": "tokenA",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 142,
-                  "src": "122:14:2",
+                  "scope": 182,
+                  "src": "122:14:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -138,10 +138,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 132,
+                    "id": 172,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "122:7:2",
+                    "src": "122:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -153,13 +153,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 135,
+                  "id": 175,
                   "mutability": "mutable",
                   "name": "tokenB",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 142,
-                  "src": "138:14:2",
+                  "scope": 182,
+                  "src": "138:14:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -167,10 +167,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 134,
+                    "id": 174,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "138:7:2",
+                    "src": "138:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -181,21 +181,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "105:48:2"
+              "src": "105:48:4"
             },
             "returnParameters": {
-              "id": 141,
+              "id": 181,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 138,
+                  "id": 178,
                   "mutability": "mutable",
                   "name": "tokenAAmount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 142,
-                  "src": "172:17:2",
+                  "scope": 182,
+                  "src": "172:17:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -203,10 +203,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 137,
+                    "id": 177,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "172:4:2",
+                    "src": "172:4:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -217,13 +217,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 140,
+                  "id": 180,
                   "mutability": "mutable",
                   "name": "tokenBAmount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 142,
-                  "src": "191:17:2",
+                  "scope": 182,
+                  "src": "191:17:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -231,10 +231,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 139,
+                    "id": 179,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "191:4:2",
+                    "src": "191:4:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -244,27 +244,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "171:38:2"
+              "src": "171:38:4"
             },
-            "scope": 143,
-            "src": "70:140:2",
+            "scope": 183,
+            "src": "70:140:4",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 144,
-        "src": "27:186:2"
+        "scope": 184,
+        "src": "27:186:4"
       }
     ],
-    "src": "0:213:2"
+    "src": "0:213:4"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "/C/Users/Fabio/Github_repos/Pessoal/UniswapSmartContractIntegration/contracts/interfaces/ILiquidityValueCalculator.sol",
       "exportedSymbols": {
         "ILiquidityValueCalculator": [
-          143
+          183
         ]
       }
     },
@@ -278,9 +278,9 @@
             ".6"
           ]
         },
-        "id": 129,
+        "id": 169,
         "name": "PragmaDirective",
-        "src": "0:23:2"
+        "src": "0:23:4"
       },
       {
         "attributes": {
@@ -295,10 +295,10 @@
           "documentation": null,
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            143
+            183
           ],
           "name": "ILiquidityValueCalculator",
-          "scope": 144
+          "scope": 184
         },
         "children": [
           {
@@ -314,7 +314,7 @@
               ],
               "name": "computeLiquidityShareValue",
               "overrides": null,
-              "scope": 143,
+              "scope": 183,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "external"
@@ -328,7 +328,7 @@
                       "mutability": "mutable",
                       "name": "liquidity",
                       "overrides": null,
-                      "scope": 142,
+                      "scope": 182,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -341,14 +341,14 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 130,
+                        "id": 170,
                         "name": "ElementaryTypeName",
-                        "src": "106:4:2"
+                        "src": "106:4:4"
                       }
                     ],
-                    "id": 131,
+                    "id": 171,
                     "name": "VariableDeclaration",
-                    "src": "106:14:2"
+                    "src": "106:14:4"
                   },
                   {
                     "attributes": {
@@ -356,7 +356,7 @@
                       "mutability": "mutable",
                       "name": "tokenA",
                       "overrides": null,
-                      "scope": 142,
+                      "scope": 182,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -370,14 +370,14 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 132,
+                        "id": 172,
                         "name": "ElementaryTypeName",
-                        "src": "122:7:2"
+                        "src": "122:7:4"
                       }
                     ],
-                    "id": 133,
+                    "id": 173,
                     "name": "VariableDeclaration",
-                    "src": "122:14:2"
+                    "src": "122:14:4"
                   },
                   {
                     "attributes": {
@@ -385,7 +385,7 @@
                       "mutability": "mutable",
                       "name": "tokenB",
                       "overrides": null,
-                      "scope": 142,
+                      "scope": 182,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -399,19 +399,19 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 134,
+                        "id": 174,
                         "name": "ElementaryTypeName",
-                        "src": "138:7:2"
+                        "src": "138:7:4"
                       }
                     ],
-                    "id": 135,
+                    "id": 175,
                     "name": "VariableDeclaration",
-                    "src": "138:14:2"
+                    "src": "138:14:4"
                   }
                 ],
-                "id": 136,
+                "id": 176,
                 "name": "ParameterList",
-                "src": "105:48:2"
+                "src": "105:48:4"
               },
               {
                 "children": [
@@ -421,7 +421,7 @@
                       "mutability": "mutable",
                       "name": "tokenAAmount",
                       "overrides": null,
-                      "scope": 142,
+                      "scope": 182,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -434,14 +434,14 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 137,
+                        "id": 177,
                         "name": "ElementaryTypeName",
-                        "src": "172:4:2"
+                        "src": "172:4:4"
                       }
                     ],
-                    "id": 138,
+                    "id": 178,
                     "name": "VariableDeclaration",
-                    "src": "172:17:2"
+                    "src": "172:17:4"
                   },
                   {
                     "attributes": {
@@ -449,7 +449,7 @@
                       "mutability": "mutable",
                       "name": "tokenBAmount",
                       "overrides": null,
-                      "scope": 142,
+                      "scope": 182,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -462,34 +462,34 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 139,
+                        "id": 179,
                         "name": "ElementaryTypeName",
-                        "src": "191:4:2"
+                        "src": "191:4:4"
                       }
                     ],
-                    "id": 140,
+                    "id": 180,
                     "name": "VariableDeclaration",
-                    "src": "191:17:2"
+                    "src": "191:17:4"
                   }
                 ],
-                "id": 141,
+                "id": 181,
                 "name": "ParameterList",
-                "src": "171:38:2"
+                "src": "171:38:4"
               }
             ],
-            "id": 142,
+            "id": 182,
             "name": "FunctionDefinition",
-            "src": "70:140:2"
+            "src": "70:140:4"
           }
         ],
-        "id": 143,
+        "id": 183,
         "name": "ContractDefinition",
-        "src": "27:186:2"
+        "src": "27:186:4"
       }
     ],
-    "id": 144,
+    "id": 184,
     "name": "SourceUnit",
-    "src": "0:213:2"
+    "src": "0:213:4"
   },
   "compiler": {
     "name": "solc",
@@ -497,7 +497,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-19T01:42:25.683Z",
+  "updatedAt": "2021-01-19T02:22:50.314Z",
   "devdoc": {
     "methods": {}
   },
