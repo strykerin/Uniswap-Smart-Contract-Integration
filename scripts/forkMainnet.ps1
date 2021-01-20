@@ -1,0 +1,1 @@
+ganache-cli --fork https://mainnet.infura.io/v3/7238211010344719ad14a89db874158c
