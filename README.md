@@ -13,3 +13,7 @@ module.exports = function(_deployer, network, accounts) {
     _deployer.deploy(UniswapV2Factory, accounts[0], {from: accounts[0]})
 };
 ```
+## Fork Ethereum mainnet
+```powershell
+ganache-cli --fork NODE_URL
+```
